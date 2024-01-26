@@ -12,7 +12,6 @@ from db.db_main.ORM_main import sql_product_coming_insert
 
 # =======================================================================================================================
 
-
 global connection
 connection = asyncpg.connect(POSTGRES_URL)
 
